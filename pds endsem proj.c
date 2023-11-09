@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 
 #define N 9
 #define S 3
@@ -63,7 +62,6 @@ int checkIfSafe(int row, int col, int num) {
 
 //for filling numbers in the 3x3 subgrid
 void fillBox(int row, int col) {
-    void initializeRandomSeed();
     int num, i, j;
     for (i = 0; i < S; i++)
         for (j = 0; j < S; j++)
